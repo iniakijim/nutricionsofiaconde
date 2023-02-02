@@ -1,0 +1,181 @@
+/* RESET*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+/*-----------HEADER--------*/
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+header h1{
+    background-color: lightblue;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+header nav{
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li{
+    margin: 20px;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*----------MAIN-------------*/
+
+.hero{
+    background-image: url(../img/1000_F_186700790_bCVYyrQQPJTgVnIjsvCh3ZbFUnkgj6tB.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: 0%;
+}
+
+.bienvenidos{
+    background-color: mediumturquoise;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.bienvenidos h2{
+    font-size: 30px;
+}
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.fondo{
+    background-color: lavender;
+}
+
+.suplementos{
+    background-color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.suplementos div{
+    width: 500px;
+    text-align: center;
+}
+
+.suplementos img{
+    width: 360px;
+    height: 260px;
+}
+
+.creatina{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.creatina div{
+    width: 500px;
+    text-align: center;
+}
+
+.creatina img{
+    width: 360px;
+    height: 360px;
+} 
+
+.proteina{
+    background-color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.proteina div{
+    width: 500px;
+    text-align: center;
+}
+
+.proteina img{
+    width: 250px;
+    height: 250px;
+} 
+
+
+
+/*-------------FOOTER--------*/
+
+footer{
+    background-color: lavender;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer div ul{
+    list-style: none;
+}
+
+
+footer div img{
+    width: 60px;
+    height: 60px;
+
+}
+
+.redes-sociales{
+    display: flex;
+    text-align: center;
+}
+
+.copyright{
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
