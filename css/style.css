@@ -47,6 +47,10 @@ header nav ul li a{
     color: black;
 }
 
+/*!-----MEDIA QUERY-----*/
+
+
+
 /*----------MAIN-------------*/
 
 .hero{
@@ -127,7 +131,7 @@ header nav ul li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 50px;
 }
 
 .bienvenidos h2{
@@ -219,7 +223,8 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
+    font-size: 15px;
 }
 
 footer div ul{
