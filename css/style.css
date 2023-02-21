@@ -17,13 +17,7 @@ header nav{
 
 div ul li{
     color: black;
-    transition: 1s;
 }
-
-div ul li:hover{
-    color:white
-}
-
 
 .nav-link{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -286,11 +280,9 @@ div ul li:hover{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.suplementos{
     width: 100%;
 }
+
 
 .suplementos h1{
     display: flex;
@@ -316,7 +308,6 @@ div ul li:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
     flex-wrap: wrap;
 }
 
@@ -330,6 +321,7 @@ div ul li:hover{
     justify-content: center;
     text-align: center;
     font-size: 25px;
+    margin-top: 10px;
 }
 
 .creatina p{
@@ -359,6 +351,8 @@ div ul li:hover{
     justify-content: center;
     text-align: center;
     font-size: 25px;
+    margin-top: 10px;
+    
 }
 
 .proteina p{
