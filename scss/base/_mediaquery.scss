@@ -1,0 +1,195 @@
+
+
+@media screen and (max-width: 1000px){
+    main{
+        .galeria{
+            h1{
+            } 
+            .grid-galeria{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    }  
+
+    }    
+
+
+
+@media screen and (max-width: 700px){
+    main{
+        .galeria{
+            h1{   
+            } 
+            .grid-galeria{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+    }  
+    
+    }   
+
+@media screen and (max-width: 700px){
+    footer{
+        .redes{
+            .redesh2{
+                font-size: 15px;
+            }
+
+        }
+    }
+
+
+}  
+
+
+@media screen and (max-width: 700px) {
+    footer{
+        .redes{
+            .redesh2{
+
+            }
+            .redes-sociales{
+                li{
+                    a{
+                      img{
+                        width: 50px;
+                        height: 50px;
+                      }  
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width: 580px){
+    main{
+        div{
+
+        }
+        .bienvenidos{
+            h1{
+                font-size: 23px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+
+
+}  
+
+@media screen and (max-width: 580px){
+    main{
+        .galeria{
+            h1{
+                font-size: 18px;
+            }
+        }
+    }
+}  
+
+@media screen and (max-width: 580px){
+    main{
+        .carrusel{
+            div{
+                .nuestroservicio{
+                    font-size: 18px;
+            
+                }
+            }
+        }
+    }
+
+}  
+
+@media screen and (max-width: 580px){
+    main{
+        .creatina{
+            div{
+                h2{
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+
+        }
+    }
+
+}  
+
+@media screen and (max-width: 530px){
+    main{
+        .bienvenidos{
+                p{
+                    font-size: 15px;
+                }
+            }
+        
+    }
+
+}  
+
+@media screen and (max-width: 500px){
+    main{
+        .bienvenidos{
+            h1{
+                font-size: 20px;
+            }
+        }
+    }
+
+} 
+
+@media screen and (max-width: 450px){
+    main{
+        .galeria{
+            h1{
+                font-size: 15px;
+            }
+        }
+    }
+}  
+
+@media screen and (max-width: 450px){
+    main{
+        .carrusel{
+            div{
+                .nuestroservicio{
+                    font-size: 15px;
+            
+                }
+            }
+        }
+    }
+
+
+}  
+
+@media screen and (max-width: 415px){
+    main{
+        .bienvenidos{
+            h1{
+                font-size: 18px;
+            }
+        }
+    }
+}  
+
+@media screen and (max-width: 385px){
+    main{
+        .bienvenidos{
+            h1{
+                font-size: 18px;
+                text-align: center;
+            }
+
+        }
+    }
+
+}  
