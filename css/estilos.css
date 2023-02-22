@@ -1,3 +1,7 @@
+.bienvenidos, .galeria h1, .suplementos div h1, .suplementos div p, .creatina div h2, .creatina div p, .proteina div h2, .proteina div p, .contactanos .contacto h1, div .formulario {
+  display: flex;
+  justify-content: center; }
+
 header nav {
   background-color: azure; }
   header nav div .navbar-brand {
@@ -21,9 +25,7 @@ header nav {
 .bienvenidos {
   background-color: aquamarine;
   width: 100%;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 50px; }
   .bienvenidos h1 {
@@ -39,8 +41,6 @@ header nav {
 
 /*-----QUIEN SOY----*/
 .galeria h1 {
-  display: flex;
-  justify-content: center;
   text-align: center;
   padding: 0px;
   background-color: aliceblue;
@@ -90,42 +90,40 @@ header nav {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%; }
+  width: 100%;
+  font-style: italic; }
   .suplementos div h1 {
-    display: flex;
-    justify-content: center;
     text-align: center;
     font-size: 25px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-style: italic; }
   .suplementos div p {
-    display: flex;
-    justify-content: center;
     text-align: justify;
     font-size: 15px;
     padding-left: 30px;
-    padding-right: 30px; }
+    padding-right: 30px;
+    font-style: italic; }
 
 .creatina {
   background-color: aliceblue;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  font-style: italic; }
   .creatina div {
     width: 550px;
     text-align: center; }
     .creatina div h2 {
-      display: flex;
-      justify-content: center;
       text-align: center;
       font-size: 25px;
-      margin-top: 10px; }
+      margin-top: 10px;
+      font-style: italic; }
     .creatina div p {
-      display: flex;
-      justify-content: center;
       text-align: justify;
       font-size: 15px;
-      padding: 15px; }
+      padding: 15px;
+      font-style: italic; }
   .creatina img {
     width: 350px;
     height: 350px; }
@@ -136,44 +134,41 @@ header nav {
   justify-content: space-evenly;
   flex-direction: row-reverse;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  font-style: italic; }
   .proteina div {
     width: 500px; }
     .proteina div h2 {
-      display: flex;
-      justify-content: center;
       text-align: center;
       font-size: 25px;
-      margin-top: 10px; }
+      margin-top: 10px;
+      font-style: italic; }
     .proteina div p {
-      display: flex;
-      justify-content: center;
       text-align: justify;
       font-size: 15px;
-      padding: 15px; }
+      padding: 15px;
+      font-style: italic; }
   .proteina img {
     width: 450px;
     height: 370px; }
 
 /*-------CONTACTANOS------*/
 .contactanos .contacto h1 {
-  display: flex;
   background-color: aliceblue;
-  justify-content: center;
   text-align: center;
   font-size: 20px;
   font-style: italic;
   margin-bottom: 0; }
 
 div .formulario {
-  display: flex;
-  justify-content: center;
   background-color: aquamarine;
   width: 100%;
   height: 480px;
-  padding: 5px; }
+  padding: 5px;
+  font-style: italic; }
   div .formulario div h2 {
-    font-size: 20px; }
+    font-size: 20px;
+    font-style: italic; }
 
 footer {
   background-color: azure;
