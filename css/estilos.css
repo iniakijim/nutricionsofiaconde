@@ -1,3 +1,9 @@
+/* RESET*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
 .bienvenidos, .galeria h1, .suplementos div h1, .suplementos div p, .creatina div h2, .creatina div p, .proteina div h2, .proteina div p, .contactanos .contacto h1, div .formulario {
   display: flex;
   justify-content: center; }
