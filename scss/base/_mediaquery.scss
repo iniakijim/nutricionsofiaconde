@@ -37,9 +37,16 @@
 
         }
     }
+} 
 
-
-}  
+@media screen and (max-width: 700px){
+    .fixed{
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
 
 
 @media screen and (max-width: 700px) {
@@ -51,18 +58,16 @@
             .redes-sociales{
                 li{
                     a{
-                      img{
+                    img{
                         width: 50px;
                         height: 50px;
-                      }  
+                    }  
                     }
                 }
             }
         }
 
     }
-
-
 }
 
 @media screen and (max-width: 580px){
