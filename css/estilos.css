@@ -97,6 +97,9 @@ header nav {
   .carrusel div p {
     font-style: italic; }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  color: black; }
+
 /*------SUPLEMENTOS-----*/
 .suplementos {
   background-color: aquamarine;
