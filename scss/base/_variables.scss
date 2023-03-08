@@ -8,14 +8,14 @@ $color-terciario: white;
     justify-content: center;
 }
 
-@mixin texto ($font-size, $color){
-    font-size: 12px; 
-    color: gray;
+@mixin text ($text-align){
+    text-align: $text-align;
 
 }
 
 $font-style:
 italic,
 normal,
+arial, 
 
 
